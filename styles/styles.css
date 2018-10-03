@@ -4,3 +4,22 @@ body{
     font-family: 'Raleway', Helvetica, sans-serif;
     min-width: 320px;
 }
+
+#form-container{
+    background-color: rgb(250, 250, 250);
+    margin: 0 auto;
+    border-radius: 4px;
+    width: 75%;
+    max-width: 900px;
+    padding: 10px;
+    padding-top: 20px;
+}
+
+/* #survey-form{
+    position: relative;
+}
+
+#who-section{
+    position: absolute; 
+} */
+
