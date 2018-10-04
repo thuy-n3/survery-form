@@ -15,11 +15,7 @@ body{
     padding-top: 20px;
 }
 
-/* #survey-form{
-    position: relative;
+form{
+    display: block;
 }
-
-#who-section{
-    position: absolute; 
-} */
 
