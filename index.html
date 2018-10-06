@@ -20,33 +20,39 @@
 
         <form id="survey-form">
 
-            <div id="who-section">
+            <!-- <div id="who-section"> -->
 
-                    <div id="name-group">
-                        <div class="label"><label for="name" id="name-label" class="label">Name:</label></div>
+                    <div id="name-group" class="row-block">
+                        <div class="labels">
+                            <label for="name" id="name-label" class="label">Name:</label>
+                        </div>
                         <div class="input-block">
-                            <input type="text" id="name" class="input-field" placeholder="Name" required>
+                            <input type="text" name="name" id="name" class="input-field" placeholder="Enter your name" required>
                         </div>
                     </div>
                 
-                    <div id="email-group">
-                        <div class="label"><label for="email" id="email-label">E-mail:</label></div>
+                    <div id="email-group" class="row-block">
+                        <div class="labels">
+                            <label for="email" id="email-label">E-mail:</label>
+                        </div>
                         <div class="input-block">
                             <input type="email" id="email"  class="input-field" placeholder="E-mail" required>
                         </div>
                     </div>
                 
-                    <div id="number-group">
-                        <div class="label"><label for="number" id="number-label">Number</label></div>
+                    <div id="number-group" class="row-block">
+                        <div class="labels">
+                            <label for="number" id="number-label">Number</label>
+                        </div>
                         <div class="input-block">
                             <input type="number" id="number" class="input-field" value="0" min="0" max="10" placeholder="Enter a Number" required>
                         </div>
                     </div>
                 
-            </div>
+            <!-- </div> -->
 
-            <div class="plate-section">
-                <div class="label"><label for="plate-choice">Plate Choice:</label></div>
+            <div id="plate-group" class="row-block">
+                <div class="labels"><label for="plate-choice">Plate Choice:</label></div>
                 <div class="input-block">
                     <select  id="dropdown" class="dropdown-selection"> 
                         <option value="squid ink pasta">Squid Ink Pasta</option>
@@ -59,8 +65,8 @@
                 </div>
             </div>    
 
-            <div class="sides-section">
-                   <div class="label"><label>Sides</label></div>
+            <div id="sides-group" class="row-block">
+                   <div class="labels"><label>Sides</label></div>
                    <div class="input-block">
                         <ul>
                             <li>
@@ -99,8 +105,8 @@
                    </div>
             </div>
 
-            <div class="drink-section">
-                <div class="label"><Label>Drinks</Label></div>
+            <div id="drink-group" class="row-block">
+                <div class="labels"><Label>Drinks</Label></div>
                 <div class="input-block">
                     <ul>
                         <li>
@@ -131,14 +137,13 @@
                 </div>
             </div>
 
-            <div class="comment-section">
-                <div class="label"><label for="comments">Any Additional Comments</label></div>
+            <div id="comment-group" class="row-block">
+                <div class="labels"><label for="comments">Any Additional Comments</label></div>
                 <div class="input-block">
                     <textarea class="form-control" placeholder="Additional Comments"></textarea>
                 </div>     
             </div>
                 
-          
             <button type="submit" id="submit" value="Submit" class="btn" >Submit</button>
           
     
